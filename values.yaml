@@ -5,7 +5,7 @@ runnerTag: v1
 
 # GitHub organization or user. Required.
 # If githubRepository is set, this must be the organization or user who owns that repository.
-githubOwner: ""
+githubOwner: "imakmoonish"
 # GitHub repository to install runners to. Can be omitted for an organization-level runner.
 githubRepository: ""
 # If you're using GitHub Enterprise, enter your company domain here.
@@ -37,9 +37,36 @@ appInstallIdSecretKey: "github-install-id"
 # The name of the key that points to the Github App PEM
 appPemSecretKey: "github-pem"
 ## All 3 githubApp values are required
-githubAppId: ""
-githubAppInstallId: ""
-githubAppPem: ""
+githubAppId: "1123196"
+githubAppInstallId: "60058640"
+githubAppPem: "-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAryxbSaatQH78OW8KYa+siOtnDunnBsduUuO8R168DvK1qpb4
+t+3nLUbsIZ7kjWi01tBzbkv5oE9NrVuh60qkVgwNY0kL7NxRHL+ky0ZDOZhW+ndC
+5TEOwW1/W7TNumtuew/pXLAetUG9bpEWNe6/WRboPHcylwxZQOLbNy+j6dV533Co
+BIXgvTIyplouDybpuvOpsc63hJNsAnbbOUm1KXAztk+0UB8w1/MM0dTRm67Xyi5k
+UePJObj3v5ah8o2Ue6k74yX2C50pyVpzUuS5tgytM3YW+AbYARwsbWmVaiEWYkPY
+aR1r6zatFKbTDtw+nhlFgT1fKx0S6zLcekf/2wIDAQABAoIBAHOSCjBPXSKeJP4n
+emv0oRo8ZOP8AcYBMZJSWdekcuJR0vVXYYTH2quOjR+pWxTIrfbD1ERCr9DKQW9M
+c0lvF3kFvpdwjAObX5BeB/Vsx9Fp5oicwm+/rAKFoW75nHmPg3aBiu7x63CejMIz
+yrmOaIP4jwPFiIULSp96jDKepcARVjZDHMxgRsNlOHNmDrY1d8RbaY/p0Jz8n4GG
+Tjuu6zwgh2hZZfccFCrz/Pj5ONp1lceu3bXd+dJz4GWiJFyNOWBzJEr7xwvdFqWJ
+3u4KknVw2lyYQ1b3lFg2erRSZ4r5EEJRRCoDSbdEHSakIAXSVEdxB5RBmLWTNqeu
+5qnI+tECgYEA2G9fIwkIBoQKebMw+xfEBVCVbRLXVRFqbEHzYo1IOZplgiyniVyv
+omftDBL69Ivx7hINkKFypBhwm3o6A/RGPqK90Twj9+uci5pgf2z3WYI49lRszeRW
+0LAcIjU4LE/u3Nc0a9pv9qINoU0jkZIJ0L1TcxOikLOvQ+zqb0quIsUCgYEAzzII
+/8r+nAWrL96mB+XA2qvI+dnhlNSVi+sPmrdRwxxAli3GQUfmhQ2VrO0XNwvjCn0k
+aBf2L3cNTVqH9PPiYzTXcpLUXhECps/sD1jc+PHu+XiCaXGw+t9OP0a3RFaelBYk
+BnoBc3iD5yMxgqzNKL/DTjkFkzR9YPINp8j/Qh8CgYA0ITcP8DfvodQIFgHhKIs9
+IHitKdGVmrlAU+40OYVA4pA6d1ju+9UNz+xHcTbiueZOiiicQlajcYOF3z2kACz/
+HyGLCOo855HwCgHeDzfQZk4j/peqS6ohX5mXH6xk9+e3Z1on9BftloCj7jl38W3N
+yhwUZpFMOwsm2CRrI9inZQKBgBf/vKkcMyeRRIXT7TlG9HKfqTS/dvCNOxEs1e7e
+wvqtgBGlFaykDmBk9WxFPgYjO1YQrrHb7KkMyh6mmM7XnOZOzZG4zh5jLAJ0XOxe
+J6IyK7L7sWdTQuOcD+0mXL3upomSkvOpGBfu4qBYJDj1mQHaTF34HtwxHUCoaMqB
+boeTAoGAYk93cGsOGjMNS5A+PaTt9xAg7uoQC/8dKUpl9CBCuJyqAUjPpojnpo6Y
+7hGt8xIZJhzL5+8GybntvuxRms6FWTbxqU6/ZHDM4OWdU6E4+C0CcXjms1kA/LWf
+ndPzrtRkt1QsioBOWBo+BsNfIpJ56ODrJzSz663vUBwPsv994DQ=
+-----END RSA PRIVATE KEY--
+"
 
 ### End App Auth
 
@@ -48,7 +75,7 @@ githubAppPem: ""
 runnerLabels: []
 
 # The name of an organization runner group name to attach the runner to
-runnerGroup: ""
+runnerGroup: "test-runners"
 
 # Add annotations to the deployment. This is easist with a values file but can be done on the command line with:
 # --set annotations.<key>=<value> is equivalent to the values file:
